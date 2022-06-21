@@ -1,0 +1,37 @@
+body {
+    font-family: Futura, 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+center {
+    margin-top: 250px;
+}
+
+.searchbar {
+    border-radius: 20px;
+    display: block;
+    width: 500px;
+    padding: 5px;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 62pt;
+    margin-bottom: 30px;
+}
+
+.button {
+    padding: 5px;
+}
+
+.links {
+    text-align: right;
+    margin: 10px;
+}
+
+.link {
+    margin: 10px;
+}
+
+center > .adv-button {
+    text-align: right;
+}
