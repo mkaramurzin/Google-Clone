@@ -1,5 +1,6 @@
 body {
     font-family: Futura, 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
 }
 
 center {
@@ -19,6 +20,16 @@ h1 {
     margin-bottom: 30px;
 }
 
+h2 {
+    margin: 30px;
+    margin-bottom: 80px;
+    color: crimson;
+}
+
+h3 {
+    margin: 30px;
+}
+
 .button {
     padding: 5px;
 }
@@ -32,6 +43,16 @@ h1 {
     margin: 10px;
 }
 
-center > .adv-button {
-    text-align: right;
+.label {
+    text-align: left;
+}
+
+.adv-input {
+    width: 500px;
+    padding: 5px;
+    margin: 10px;
+}
+
+table {
+    margin: 30px;
 }
