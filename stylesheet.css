@@ -53,6 +53,14 @@ h3 {
     margin: 10px;
 }
 
+.adv-button {
+    color: azure;
+    background-color: blue;
+    padding: 5px;
+    margin: 15px;
+    float: right;
+}
+
 table {
     margin: 30px;
 }

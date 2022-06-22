@@ -1,44 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <title>Advanced</title>
-        <link rel="stylesheet" href="stylesheet.css">
-    </head>
+<head>
+    <title>Advanced</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
 
-    <body>
+<body>
 
-        <div class="links">
-            links
-        </div>
+    <div class="links">
+        <a class="link" href="index.html">Google</a>
+        <a class="link" href="images.html">Images</a>
+    </div>
 
-        <div>
-            <h2>Advanced Search</h2>
-        </div>
+    <div>
+        <h2>Advanced Search</h2>
+    </div>
 
-        <div>
-            <!-- <center> -->
-                <form action="https://www.google.com/search">
-                    <table>
+    <div>
+        <form action="https://www.google.com/search">
+            <table>
 
-                        <tr>
-                            <h3>Find pages with...</h3>
-                        </tr>
+                <tr>
+                    <h3>Find pages with...</h3>
+                </tr>
 
-                        <tr>
-                            <td class="label">all these words:</td>
-                            <td class="textfield"><input class="adv-input" type="text" name="as_q"></td>
-                        </tr>
+                <tr>
+                    <td class="label">all these words: </td>
+                    <td><input class="adv-input" type="text" name="as_q"></td>
+                </tr>
 
-                        <tr>
-                            <td class="label">this exact word or phrase:</td>
-                            <td class="textfield"><input class="adv-input" type="text" name="as_epq"></td>
-                        </tr>
-                    </table>
-                </form>
-            <!-- </center> -->
-        </div>
+                <tr>
+                    <td class="label">this exact word or phrase: </td>
+                    <td><input class="adv-input" type="text" name="as_epq"></td>
+                </tr>
 
-    </body>
+                <tr>
+                    <td class="label">any of these words: </td>
+                    <td><input class="adv-input" type="text" name="as_oq"></td>
+                </tr>
+
+                <tr>
+                    <td class="label">none of these words: </td>
+                    <td><input class="adv-input" type="text" name="as_eq"></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td><input class="adv-button" type="submit" value="Advanced Search"></td>
+                </tr>
+
+            </table>
+        </form>
+    </div>
+
+</body>
 
 </html>
